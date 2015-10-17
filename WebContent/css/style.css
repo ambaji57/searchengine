@@ -1,0 +1,22 @@
+body,html{font-size:16px;}
+#number td  {color:#489CDF;font-size:18px; background:#efefef;padding:3px;border-radius:3px;}
+#number a {text-decoration:none;color:blue;cursor:pointer;padding:6px;width:50px;height:30px;}
+				#results{position:relative;margin:auto;width:80%;}
+				 .main{background:#e4e4e4;min-width:1000px;border:1px solid #e4e4e4;}
+				#result td {padding:5px;}
+				.main td {padding:5px;} #XAwu, #XAwu1 {display:none;}
+				select {padding:6px;border:1px solid #929292;background:#fff;font-size:16px;color:#333;}
+				input[type="text"] {padding:10px;border:1px solid #929292;background:#fff;font-size:16px;color:#333;}
+				#resultdiv{width:100%;padding:15px;text-align:justify;top:10px;color:#333;font-size:16px;}
+				#totaldocs{color:#666;}
+        	input[type="submit"]{padding:7px;width:200px;border:1px solid #489CDF;background:#489CDF;color:#fff;font-size:20px;}
+        	#head {border:3px solid #0A0A0A;height:25px;background:linear-gradient(#252525,#0A0A0A) repeat scroll 0 0 transparent;background:#0A0A0A;}
+        	#head ul{list-style-type:none;display:inline;padding:7px;text-decoration:none;color:#fff;}
+        	#head ul li{list-style-type:none;display:inline;padding:18px 2px;text-decoration:none;color:#fff;}
+        	#head ul li a{list-style-type:none;display:inline;padding:17px 2px;text-decoration:none;color:#999;font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,"sans-serif"; font-size:18px;} #head li a:hover{color:#FAFAFA;}
+	#Depat {float:left;} #tools {float:right;} 
+#lastinfo {font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,"sans-serif"; font-size:15px;}
+#resultdiv a:visited{color:blue; text-decoration:none;}
+#resultdiv a{color:blue; text-decoration:none;}
+#resultdiv:hover{background:#efefef;box-shadow:0px 0px 1px #333;}
+#error {color:red;padding:3px;}

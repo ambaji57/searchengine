@@ -1,0 +1,129 @@
+
+
+CONVERTERS
+=============
+
+
+
+NAME OF THE CONVERTER          FILENAME
+---------------------------------------------------
+1. CLP to WX                   clp2wx.pl
+2. ISCII to Roman(WX)          ir
+3. ISCII to UTF8               iscii2utf8.py
+4. ISCII to Unicode            iscii-to-unicode.out
+5. Itrans to ISCII             itrans-iscii.sh
+6. Itrans to RA                itrans_ra.out
+7.Harvard Kyoto to RA         kyoto_ra.out 
+8.Logical to Itrans           logical_itrans.out
+9.Roman to ISCII              ri_skt
+10.Unicode to ISCII            unicode-iscii.out
+11.Utf8 to ISCII               utf82iscii.pl
+12.Utf8 to WX                  utf82wx.sh
+13.Velthuis to WX              velthuis-wx.pl
+14.WX to Utf8                  wx2utf8.sh
+15.Makefile
+
+Makefile 
+---------------------
+To run the make file type the following command
+make
+
+The following lex programs are compiled when the Makefile is run to produce the corresponding files with .out extension. 
+
+ir.lex
+iscii-to-unicode.lex
+itrans_ra.lex
+kyoto_ra.lex
+logical_itrans.lex
+ri.lex
+ri_skt.lex
+rm__between_vowels.lex
+unicode-iscii.lex
+
+
+HOW TO RUN THE CONVERTERS
+===============================
+inputfile is the input filename.
+outputfile is the output filename. 
+
+
+
+
+1. CLP to WX CONVERTER
+-----------------------
+perl clp2wx.pl < inputfile > ouputfile
+
+
+2.ISCII to Roman CONVERTER
+---------------------------
+./ir < inputfile > outputfile
+
+3.ISCII to UTF8 CONVERTER
+--------------------------
+./iscii2utf8.py script
+
+    where script is a number between 1-9
+
+    1 - devnag
+    2 - bengali / assamese
+    3 - punjabi
+    4 - gujarati
+    5 - oriya
+    6 - tamil
+    7 - telugu
+    8 - kannada
+    9 - malayalam
+
+    the program reads from stdin and writes to stdout
+
+    any msgs to the user (error msgs etc) are printed on stderr
+
+./iscii2utf8.py 1 < inputfile > ouputfile
+
+
+4.ISCII to Unicode CONVERTER
+------------------------------
+./iscii-to-unicode.out < inputfile > outputfile
+
+5.Itrans to ISCII CONVERTER
+------------------------------
+sh itrans-iscii.sh < inputfile > ouptutfile
+
+6.Itrans to RA CONVERTER
+---------------------------
+./itrans_ra.out < inputfile > ouputfile
+
+7.Harvard Kyoto to RA converter
+----------------------------------
+./kyoto_ra.out < inputfile > outputfile
+
+8.Logical to Itrans converter
+--------------------------------
+./logical_itrans.out < inputfile > ouputfile
+
+9.Roman to ISCII converter
+------------------------------
+./ri_skt < inputfile > outputfile
+
+10.Unicode to ISCII converter
+---------------------------------
+./unicode-iscii.out < inputfile > outputfile
+
+11.utf8 to ISCII converter
+------------------------------
+perl utf82iscii.pl < inputfile > outputfile
+
+12.utf8 to WX converter 
+--------------------------
+sh utf82wx.sh inputfile outputfile
+
+13.Velthuis to WX converter
+-----------------------------
+perl velthuis-wx.pl < inputfile > outputfile
+
+14.WX to utf8 converter
+----------------------------
+sh wx2utf8.sh inputfile ouputfile 
+
+
+
